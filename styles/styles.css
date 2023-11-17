@@ -1,8 +1,43 @@
 /* Reset Style */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* homepage background image  */
+#homepage {
+
+    background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+/* Footer Styling  */
+footer {
+position: absolute;
+bottom: 0;
+margin-bottom: 0.5rem;
+}
+
+/* welcome note  */
+#welcome {
+    color: brown;
+    font-family: sans-serif;
+    font-size: 6rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.page {
+    font-family: sans-serif;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
 }
 
 body {
