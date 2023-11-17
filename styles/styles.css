@@ -1,7 +1,103 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Contact Page Bacgkround Image */
 #contact-page {
-    background-image: url("https://images.unsplash.com/photo-1474403078171-7f199e9d1335?q=80&w=3571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1474403078171-7f199e9d1335?q=80&w=3571&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  color: #fff;
+}
+
+/* header  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 6rem;
+  background-color: #b7aaaa20;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 40%;
+}
+
+/* Navigation links  */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: teal;
+}
+
+
+/* container  */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container h1 {
+  color: #fff;
+}
+
+/* Contact Form  */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 8rem;
+  justify-content: center;  
+}
+
+form label {
+  color: #fff;
+}
+
+form input, textarea {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+form textarea {
+  margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+  background-color: teal;
+  color: #fff;
+  width: 8rem;
+  cursor: pointer;
+  align-self: center;
+}
+
+form input[type="submit"]:hover {
+  background-color: #ccc;
+  color: teal;
 }
